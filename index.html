@@ -16,6 +16,7 @@
         <li><a href="">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="images/projects.html">New Projects</a></li>
         <li><a href="#graphics">Graphics</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -25,7 +26,7 @@
 
     <section id="home">
       <div class="home-text">
-        <h1>Welcome to my page!<br>It's me!<br><span>Heather Nygaard</span><br>Web Developer, Programmer, <br>Graphic Designer!</h1>
+        <h1><span>Heather Nygaard</span><br>Web Developer, Programmer, &<br>Graphic Designer!</h1>
         <a href="mailto:hmnygaard2@gmail.com">Let's talk!</a>
       </div>
       <div class = "home-img">
@@ -151,7 +152,8 @@
     </div>
   </section>
   <div class="copyright">
-    <p>&copy; 2024 Heather Nygaard.  All rights reserved.</p>
+      <p>© <span id="year">2024</span> Heather Nygaard. All rights reserved.</p>
   </div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
