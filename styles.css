@@ -12,6 +12,7 @@
   --main-color: #136f7d;
   --second-color: #002c37;
   --third-color: #8aed07;
+  --fourth-color: #738689;
 }
 
 section {
@@ -152,6 +153,7 @@ ul li a:hover {
   border-bottom: 3px solid var(--second-color);
   font-size: 1.8rem;
 }
+
 
 .heading p {
   color: var(--second-color);
@@ -324,6 +326,13 @@ ul li a:hover {
   margin: 5px 0px 24px;
 }
 
+.graphics-quote p {
+  color: var(--fourth-color);
+  font-style: italic;
+  font-size: small;
+}
+ 
+ 
 .graphics-text a {
   padding: 12px 24px;
   background: var(--main-color);
