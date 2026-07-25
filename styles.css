@@ -238,7 +238,14 @@ ul li a:hover {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
+ #projects2 {  
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  /*background-color: aqua;*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 .projects-content {
   display:flex;
   justify-content: center;
